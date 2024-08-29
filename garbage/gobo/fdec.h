@@ -1,0 +1,3 @@
+
+void daeron();
+void moron();
