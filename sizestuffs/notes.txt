@@ -2,3 +2,9 @@ p1 is 41KB in size, which probably implies this is the basic size of these cpp e
 
 p1 speicific size : 41,664 bytes
 
+p1.c is created
+p1_c is the corresponding exe file, p1.c is just p1.cpp but in c format
+
+p1_c specific size : 41,664 bytes
+
+huh, both have same goddahmn size
