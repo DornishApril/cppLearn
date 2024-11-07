@@ -24,9 +24,10 @@ int main() {
     cout << "Available stack memory = " << GetAvailableStackSpace()<< " bytes\n\n\n";
     
     //524064 shud be the upper limit but available stack is less than that
-    int inc=1;
-    int a[520000+inc];
-    a[520000]=10;
+    //wayyy over 2MB
+    int* a = new int(10000000);
+
+    delete a;
     
 
     return 0;
