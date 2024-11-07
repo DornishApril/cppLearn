@@ -23,6 +23,11 @@ int main() {
     
     cout << "Available stack memory = " << GetAvailableStackSpace()<< " bytes\n\n\n";
     
+    //524064
+    int inc=1;
+    int a[529000+inc];
+    a[520000]=10;
+    
 
     return 0;
 }
