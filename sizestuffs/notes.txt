@@ -8,3 +8,10 @@ p1_c is the corresponding exe file, p1.c is just p1.cpp but in c format
 p1_c specific size : 41,664 bytes
 
 huh, both have same goddahmn size
+
+
+int size = 20000000;
+
+with this, while statically allocated, the program crashes
+but when dynamically allocated, it doesnt
+
