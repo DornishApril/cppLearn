@@ -6,12 +6,15 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 use this command in msys2 ucrt bash first
 
 
-C:\msys64\ucrt64\bin 
+C:\msys64\ucrt64\bin
+
+keep this path on top or it wont affect anything
 
 if you remove this path, it will change the output but you need to first restart the goddamn ide
 with no MinGw path it wont run, prolly
 
---will stay as it is if it doesnt run after MinGw is removed--
+--need to remove both path for it to not work--
+
 
 add that path before the MinGw thing
 
