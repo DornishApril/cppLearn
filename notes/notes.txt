@@ -8,10 +8,14 @@ use this command in msys2 ucrt bash first
 
 C:\msys64\ucrt64\bin 
 
+if you remove this path, it will change the output but you need to first restart the goddamn ide
+with no MinGw path it wont run, prolly
+
+--will stay as it is if it doesnt run after MinGw is removed--
+
 add that path before the MinGw thing
 
 before msys2 : pointer size shown 4 bytes
                 int size 4 bytes
 after msys2  : pointer size shown 8bytes
                 int size 4 bytes
-                
