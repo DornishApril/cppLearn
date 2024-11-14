@@ -10,3 +10,8 @@ C:\msys64\ucrt64\bin
 
 add that path before the MinGw thing
 
+before msys2 : pointer size shown 4 bytes
+                int size 4 bytes
+after msys2  : pointer size shown 8bytes
+                int size 4 bytes
+                
