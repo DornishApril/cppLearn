@@ -1,0 +1,12 @@
+https://stackoverflow.com/questions/75227048/c-why-is-msys2-mingw-ucrt-x64-gdb-command-not-found
+https://www.msys2.org/
+
+pacman -S mingw-w64-ucrt-x86_64-gdb
+
+use this command in msys2 ucrt bash first
+
+
+C:\msys64\ucrt64\bin 
+
+add that path before the MinGw thing
+
